@@ -1,0 +1,31 @@
+
+    function sendmail($to,$subject,$body){
+       // include("class.phpmailer.php"); //you have to upload class files "class.phpmailer.php" and "class.smtp.php"
+     
+        $mail = new PHPMailer();
+    
+        $mail->IsSMTP();
+        $mail->SMTPAuth = true;
+    
+        $mail->Host = "mail.globaltradecollege.com";
+    
+        $mail->Username = "solutions@globaltradecollege.com";
+        $mail->Password = "FuTa@(2017)"; 
+    
+        $mail->From = "solutions@globaltradecollege.com";
+        $mail->FromName = "Global Trade Tutor";
+    
+        $mail->AddAddress($to);
+        $mail->AddCC("info@3timpex.com");
+        $mail->AddCC("tradeacademy@3timpex.com");
+        $mail->Subject = $subject;
+        $mail->Body = $body;
+        $mail->WordWrap = 50;
+        $mail->IsHTML(true);
+        //$mail->SMTPSecure = 'tls';
+        $mail->Port = 25;
+        //$mail->SetLanguage('en', 'language/');
+        $success=$mail->Send(); 
+        return $success;
+    }
+

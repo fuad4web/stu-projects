@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration of Admin</title>
+  <link rel="stylesheet" href="loginpage.css">
+</head>
+<body id="body">
+  <div class="container">
+    <div class="header">
+      <h2>Create Account</h2>
+    </div>
+    <form class="form" id="form">
+      <div class="form-control">
+        <label>Username</label>
+        <input type="text" placeholder="username" id="username" class="text-input correct">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>E-mail</label>
+        <input type="email" placeholder="e-mail" id="email" class="text-input">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>Password</label>
+        <input type="password" placeholder="password" id="password" class="text-input">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>Confirm Password</label>
+        <input type="password" placeholder="confirm password" id="password2" class="text-input">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <button class="button">Submit</button>
+  <span id="items">
+    <div class="form-over" id="form-over"><button class="terminate" id="terminate" title="Did you wanna go back to the form">X</button>
+      <span class="oroh">
+        We truly apprreciate everyone for his/her support in filling this form we will try as much as possible to get back to you thanks so much !!! </span>
+      <span class="lastJhor"><button id="last">Go Back</button></span>
+    </div>
+  </span>
+  </form>
+  </div>
+  <script src="loginpage.js"></script>
+</body>
+</html>

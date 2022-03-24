@@ -1,0 +1,192 @@
+.sub-header {
+  background-color: rgb(206, 156, 185);
+}
+.text-Header {
+  font-size: 2rem;
+  font-weight: 1.1rem;
+  color: black;
+  margin: 10px 0;
+  padding: 0.7rem;
+  z-index: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+[placeholder="search topic"] {
+  text-align: center;
+}
+.searchlabel {
+  font-weight: 200;
+}
+.body-subheader {
+  color: rgb(73, 211, 211);
+  font-size: medium;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body-contents {
+  width: 85%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row wrap;
+}
+.company-name {
+  font-weight: bolder;
+  font-style: oblique;
+}
+.slider2-text {
+  font-weight: 500;
+  color: #000;
+}
+.searchProject {
+  position: relative;
+}
+.searchForm .search2 {
+  padding: 15px;
+  position: absolute;
+  width: 80%;
+  margin: 1rem auto;
+  border-color: brown;
+  border-radius: 20%;
+}
+::placeholder {
+  text-align: center;
+}
+.student-name {
+  color: rgb(212, 157, 191);
+  font-size: 15px;
+  margin-top: 5px;
+}
+.student-review {
+  font-family: sans-serif, helvetica;
+  color: #000;
+  margin-top: -20px
+}
+.user-occupation {
+  margin-top: -6px;
+  font-size: 11px
+}
+.search2gan {
+  width: 92%;
+  margin: 1.5rem auto;
+  border-radius: 20px;
+  padding: 23px 15px;
+  margin-left: 4%;
+  text-align: center;
+}
+.search2gan:focus {
+  box-shadow: 0 0 12px blue;
+}
+::placeholder {
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+}
+.searchProject {
+  position: relative;
+}
+.admin-edit {
+  margin: 0.5rem 0.7rem;
+}
+.btn_logout {
+  display: block;
+  justify-content: center;
+  right: 0;
+  position: relative;
+  top: 15%;
+}
+#yescontent {
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 20px;
+  background-color: rgb(62, 223, 62);
+}
+#nocontent {
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: rgb(231, 59, 59);
+}
+#notification {
+    display: flex;
+    justify-content: center;
+    right: 0;
+    position: fixed;
+    top: 15%;
+    width: 17%;
+    transform: perspective(400px) translateX(0px);
+    right: -100%;
+    animation: slideIn 2s 2s forwards cubic-bezier(.5, .5, .5, 1.5);
+}
+@keyframes slideIn {
+    from { right: -100%; }
+    to { right: 0%; }
+}
+.lol {
+  display: none;
+}
+.dept {
+  color:rgb(29, 116, 230);
+}
+.dept_detail {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dept_details {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.chap-name {
+  color: rgb(111, 126, 126);
+  font-size: 900;
+}
+.text-body {
+  font-weight: 300;
+}
+.content-body {
+  box-shadow: 0 0 10px rgb(58, 57, 57);
+  margin: 15px auto;
+  padding: 15px;
+}
+.inner-header {
+  background-color: beige;
+  color: rgb(78, 74, 74);
+  padding: 10px;
+}
+.text-body {
+  box-shadow: 0 0 5px rgb(109, 104, 104);
+  margin: 5px auto;
+  padding: 12px;
+}
+.btn_logout {
+  padding: 10px;
+  color: rgb(8, 135, 247);
+  font-weight: 700;
+  font-size: 19px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn_logout:hover {
+  color: azure;
+  transition: 1s;
+  background-color: rgb(8, 135, 247);
+}
+
+.phone-menu {
+  display: none;
+}
+@media (max-width: 400px) {
+  .phone-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  }
+  .allmenu {
+  flex-basis: 18%;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .deptCourse {
+    width: 200px;
+  }
+}

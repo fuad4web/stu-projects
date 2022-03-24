@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^projects/?$ index.php [QSA]
+
+RewriteRule ^students/?$ subprojects/form.php [QSA]

@@ -1,0 +1,31 @@
+.sub-header {
+  background-color: rgb(206, 156, 185);
+}
+.text-Header {
+  font-size: 2rem;
+  font-weight: 1.1rem;
+  color: black;
+  margin: 10px 0;
+  padding: 0.7rem;
+  z-index: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+[placeholder="search topic"] {
+  text-align: center;
+}
+.searchlabel {
+  font-weight: 200;
+}
+.body-subheader {
+  color: rgb(73, 211, 211);
+  font-size: medium;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body-contents {
+  width: 85%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row wrap;
+}
